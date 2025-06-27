@@ -17,6 +17,13 @@ int main(){
   printf("Die2: %d\n",y);
 
   printf("Total value: %d\n",Total);
+  if(Total>=8){
+    printf("You won\n");
+  }
+  else{
+    printf("You lost\n");
+  }
+
 
   return 0;
 }
