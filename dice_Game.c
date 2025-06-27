@@ -1,12 +1,4 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
-
-int main(){
-  int x,y;
-  int Total;
-
-  srand(time(NULL));
+srand(time(NULL));
   x=(rand() %6 +1);
   y=(rand() %6 +1);
 
